@@ -1,0 +1,125 @@
+DATA Code Book for Meas.Tidy.data - Tidy data set for Getting and Cleaning Data Class
+===================================================================
+Each record in the file is the average response for a subject and activity:
+
+The responses come from the accelerometer and gyroscope 3-axial X, Y and Z coordinates. 
+They are time domain and frequency domain signals. 
+The acceleration signal was separated into body and gravity acceleration signals.
+
+The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. 
+The magnitude of these three-dimensional signals were calculated using the Euclidean norm to generate magnitude.
+
+A Fast Fourier Transform (FFT) was applied to some of signals to produce acceleration. 
+
+'X,Y, or Z' at the end of the variable is used to denote 3-axial signals in the X, Y and Z directions.
+
+Subject.ID	Identifies the subject/person in the study (there are 30 subjects in the study)
+Activity	A description of the activity that was measured using the cell phone (there are 6 possible activities)
+	1 WALKING
+	2 WALKING_UPSTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
+
+For a few variables the full description is provided to help with understanding the naming conventions:
+
+Time.Body.Accelerometer.Mean.X	Time domain Body Acceleration from Accelerometer Mean Value from X-axis
+Time.Body.Accelerometer.Mean.Y
+Time.Body.Accelerometer.Mean.Z
+Time.Body.Accelerometer.StdDev.X	Time domain Body Acceleration from Accelerometer Standard Deviation Value from X-axis
+Time.Body.Accelerometer.StdDev.Y
+Time.Body.Accelerometer.StdDev.Z
+
+Time.Gravity.Accelerometer.Mean.X	Time domain Gravity Acceleration from Accelerometer Mean Value from X-axis
+Time.Gravity.Accelerometer.Mean.Y
+Time.Gravity.Accelerometer.Mean.Z
+Time.Gravity.Accelerometer.StdDev.X		Time domain Gravity Acceleration from Accelerometer Standard Deviation Value from X-axis
+Time.Gravity.Accelerometer.StdDev.Y
+Time.Gravity.Accelerometer.StdDev.Z
+
+Time.Body.Accelerometer.Jerk.Mean.X
+Time.Body.Accelerometer.Jerk.Mean.Y
+Time.Body.Accelerometer.Jerk.Mean.Z
+Time.Body.Accelerometer.Jerk.StdDev.X
+Time.Body.Accelerometer.Jerk.StdDev.Y
+Time.Body.Accelerometer.Jerk.StdDev.Z
+
+Time.Body.Gyroscope.Mean.X
+Time.Body.Gyroscope.Mean.Y
+Time.Body.Gyroscope.Mean.Z
+Time.Body.Gyroscope.StdDev.X
+Time.Body.Gyroscope.StdDev.Y
+Time.Body.Gyroscope.StdDev.Z
+
+Time.Body.Gyroscope.Jerk.Mean.X
+Time.Body.Gyroscope.Jerk.Mean.Y
+Time.Body.Gyroscope.Jerk.Mean.Z
+Time.Body.Gyroscope.Jerk.StdDev.X
+Time.Body.Gyroscope.Jerk.StdDev.Y
+Time.Body.Gyroscope.Jerk.StdDev.Z
+
+Time.Body.Accelerometer.Magnitude.Mean
+Time.Body.Accelerometer.Magnitude.StdDev
+Time.Gravity.Accelerometer.Magnitude.Mean
+Time.Gravity.Accelerometer.Magnitude.StdDev
+Time.Body.Accelerometer.Jerk.Magnitude.Mean
+Time.Body.Accelerometer.Jerk.Magnitude.StdDev
+
+Time.Body.Gyroscope.Magnitude.Mean
+Time.Body.Gyroscope.Magnitude.StdDev
+Time.Body.Gyroscope.Jerk.Magnitude.Mean
+Time.Body.Gyroscope.Jerk.Magnitude.StdDev
+
+Freq.Body.Accelerometer.Mean.X
+Freq.Body.Accelerometer.Mean.Y
+Freq.Body.Accelerometer.Mean.Z
+Freq.Body.Accelerometer.StdDev.X
+Freq.Body.Accelerometer.StdDev.Y
+Freq.Body.Accelerometer.StdDev.Z
+
+Freq.Body.Accelerometer.Mean.Freq.X
+Freq.Body.Accelerometer.Mean.Freq.Y
+Freq.Body.Accelerometer.Mean.Freq.Z
+
+Freq.Body.Accelerometer.Jerk.Mean.X
+Freq.Body.Accelerometer.Jerk.Mean.Y
+Freq.Body.Accelerometer.Jerk.Mean.Z
+Freq.Body.Accelerometer.Jerk.StdDev.X
+Freq.Body.Accelerometer.Jerk.StdDev.Y
+Freq.Body.Accelerometer.Jerk.StdDev.Z
+
+Freq.Body.Accelerometer.Jerk.Mean.Freq.X
+Freq.Body.Accelerometer.Jerk.Mean.Freq.Y
+Freq.Body.Accelerometer.Jerk.Mean.Freq.Z
+
+Freq.Body.Gyroscope.Mean.X
+Freq.Body.Gyroscope.Mean.Y
+Freq.Body.Gyroscope.Mean.Z
+Freq.Body.Gyroscope.StdDev.X
+Freq.Body.Gyroscope.StdDev.Y
+Freq.Body.Gyroscope.StdDev.Z
+
+Freq.Body.Gyroscope.Mean.Freq.X
+Freq.Body.Gyroscope.Mean.Freq.Y
+Freq.Body.Gyroscope.Mean.Freq.Z
+
+Freq.Body.Accelerometer.Magnitude.Mean
+Freq.Body.Accelerometer.Magnitude.StdDev
+
+Freq.Body.Accelerometer.Magnitude.Mean.Freq
+
+Freq.Body.Accelerometer.Jerk.Magnitude.Mean
+Freq.Body.Accelerometer.Jerk.Magnitude.StdDev
+
+Freq.Body.Accelerometer.Jerk.Magnitude.Mean.Freq
+
+Freq.Body.Gyroscope.Magnitude.Mean
+Freq.Body.Gyroscope.Magnitude.StdDev
+
+Freq.Body.Gyroscope.Magnitude.Mean.Freq
+
+Freq.Body.Gyroscope.Jerk.Magnitude.Mean
+Freq.Body.Gyroscope.Jerk.Magnitude.StdDev
+
+Freq.Body.Gyroscope.Jerk.Magnitude.Mean.Freq
